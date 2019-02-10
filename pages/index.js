@@ -1,7 +1,9 @@
+import React from 'react';
+import Layout from '../components/Layout';
 
 const Index = () => (
     <div>
-        <h1>Recipe box</h1>
+       <Layout />
     </div>
 )
 
