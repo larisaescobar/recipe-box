@@ -11,10 +11,9 @@ const colors = {
     grey: '#6D6A6A',
 }
 
-const GlobalStyle = createGlobalStyle`
+export const GlobalStyle = createGlobalStyle`
     body {
         font-family: 'Muli', sans-serif;
-
     }
 `;
 
@@ -67,7 +66,25 @@ export const CardTitle = styled.h5`
 
 export const Time = styled.span`
     font-size: 16px;
-    font-family: 'Muli', serif;
     color: ${colors.grey};
     margin-top: 8px;
+`;
+
+export const Servings = styled.span`
+    font-size: 16px;
+    color: ${colors.grey};
+    margin-top: 8px;
+`;
+
+export const Category = styled.div`
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: ${colors.yellow};
+`;
+
+export const RowWrapper = styled.div`
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
 `;

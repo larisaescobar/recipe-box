@@ -5,7 +5,10 @@ import RecipeCard from './RecipeCard';
 
 const Layout = (props) => (
     <div>
-    <Head />
+    <Head
+        title="Recipe Box | Larisa"
+        description="Nextjs + prismic project"
+    />
     <Navbar 
         NavbarTitle='Recipe box'
     />
@@ -13,6 +16,7 @@ const Layout = (props) => (
         src='https://feedmephoebe.com/wp-content/uploads/2015/01/Seared-Salmon-and-Quinoa-Bowls-with-Massaged-Kale-Chickpeas-and-Lemon-Tahini-Sauce_.jpg'
         recipeTitle='Delish salmon'
         timing='25 mins'
+        servings='2'
     />
     </div>
 )
