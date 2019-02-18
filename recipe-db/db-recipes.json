@@ -1,0 +1,382 @@
+{
+    "recipes": [
+        {
+            "id": "2",
+            "name": "Tomato basil soup",
+            "imageSource": "https://images-gmi-pmc.edge-generalmills.com/9a9bf76d-189c-4429-b5c7-57325dac1b98.jpg",
+            "source": "http:\/\/cookeatshare.com\/recipes\/la-madeleine-s-tomato-basil-soup-318026",
+            "preptime": 40,
+            "servings": 4,
+            "instructions": "Combine tomatoes, juice\/and or possibly stock in saucepan. Simmer 30 min. Puree, along with the basil leaves, in small batches, in blender or food processor or use an immersion blender in the pan.\r\n\r\nReturn to saucepan and add in cream and butter, while stirring over low heat. Garnish with basil leaves and serve with your favorite bread.",
+            "ingredients": [
+                "4 c tomatoes, minced, peeled, and cored\r",
+                "4 cup vegetable stock\r",
+                "12 basil leaves\r",
+                "1 c heavy cream\r",
+                "1\/4 lb unsalted butter\r",
+                "Salt\r",
+                "1\/4 tsp black pepper"
+            ],
+            "category": "#FF6007",
+            "tags": [
+                "dinner",
+                "main"
+            ]
+            }, 
+            {
+                "id": "3",
+                "name": "Salmon ebelskivers",
+                "imageSource": "http://themessybaker.com/wp-content/uploads/2013/04/salmon-ebelskivers.gif",
+                "preptime": 70,
+                "servings": 3,
+                "instructions": "Preheat oven to 200F.\r\n\r\nIn a large bowl, whisk together the flour, sugar, baking powder, salt, and pepper. In a small bowl, lightly whisk the egg yolks, then whisk in the milk, 2 tablespoons of melted butter and lemon juice. Add the yolk mixture to the flour mixture and, using a wooden spoon, stir until well blended. The batter will be lumpy.\r\n\r\nIn a clean bowl, using an electric mixer on high speed, beat the egg whites until stiff, but not dry, peaks form. Using a silicone spatula, fold about one-third of the egg whites into the batter to lighten it, then fold in the rest just until no white streaks remain. Stir in fresh dill.\r\n\r\nBrush the wells of the ebelskiver pan with some of the remaining melted butter and place over medium heat. When the butter starts to bubble, add about 1 tablespoon batter to each well. Working quickly, carefully spoon about 1\/2 teaspoon of the smoked salmon into the center of each pancake, then spoon about 1\/2 teaspoon of the cream cheese on top. Top each with another 1 tablespoon batter. (Alternatively, gently mix the cream cheese and salmon together. Spoon about 1 teaspoon into the center of each pancake)\r\n\r\nCook until the bottoms of the pancakes are lightly browned and crisp, 3-5 minutes. Use 2 short wooden skewers to turn all the  pancakes and cook until lightly browned on the second side, about 3 minutes longer.\r\n\r\nTransfer the finished pancakes to a platter and keep warm  in the oven while you repeat to make 2 more batches. Serve right away.",
+                "ingredients": [
+                    "1 cup all-purpose flour\r",
+                    "1 1\/2 tsp sugar\r",
+                    "1\/2 tsp baking powder\r",
+                    "1\/4 tsp salt\r",
+                    "1\/2 tsp pepper, freshly ground\r",
+                    "2 large eggs, separated\r",
+                    "1 cup milk\r",
+                    "3 tbsp unsalted butter, melted and slightly cooled, divided use\r",
+                    "1 tsp fresh lemon juice\r",
+                    "1\/4 cup fresh dill, chopped and firmly packed\r",
+                    "3 1\/2 tbsp smoked salmon, minced (about 4 oz)\r",
+                    "3 1\/2 tbsp whipped-style cream cheese, at room temperature\r",
+                    "2 servings [cocktail sauce](http:\/\/www.xanthir.com\/recipes\/showrecipe.php?id=id50)"
+                ],
+                "category": "#FF6007",
+                "tags": [
+                    "salmon",
+                    "ebelskivers",
+                    "lunch"
+                ]
+        },
+        {
+            "id": "4",
+            "name": "Spaetzle",
+            "imageSource": "https://images-gmi-pmc.edge-generalmills.com/7bcadf97-7a52-42ad-9c84-b043b62cfc6b.jpg",
+            "source": "https://thestayathomechef.com/grannys-german-spaetzle/",
+            "preptime": 45,
+            "servings": 4,
+            "instructions": "Bring a saucepan of salted water it a boil, reduce the heat, and maintain a simmer. In a bowl, stir all the ingredients together (eggs, flour, milk, salt, baking powder, and nutmeg). Place a colander over the pan, pour about1\/4 of the batter into the colander, and press through the holes with a plastic spatula into the hot water. When the spatzle starts to float to the surface, cover the pan and keep covered until the spatzle appears to swell and is fluffy. Remove the dumplings and repeat the procedure with the remaining batter.\r\n\r\nIn a medium saute pan, add butter, and melt over medium heat until butter turns a light brown. Add garlic and cook until it becomes lightly colored. Add spaetzle to the pan to heat through. Add parsley, cheese, salt and pepper, to taste.",
+            "ingredients": [
+                "2 teaspoon fresh parsley, chopped\r",
+                "1 teaspoon garlic, minced\r",
+                "3 tablespoon butter\r",
+                "1 pinch nutmeg\r",
+                "1\/4 teaspoon baking powder\r",
+                "1 teaspoon salt\r",
+                "1\/2 cup milk\r",
+                "1 1\/2 cup flour, sifted\r",
+                "2 eggs, slightly beaten\r",
+                "2 tablespoon finely grated Parmesan, plus extra for garnish\r",
+                "Salt and freshly ground black pepper"
+            ],
+            "tags": [
+                "german",
+                "lunch"
+            ]
+        },
+        {
+            "id": "5",
+            "name": "Pot roast carbonnade",
+            "imageSource": "https://www.almanac.com/sites/default/files/styles/primary_image_in_article/public/recipe-shutterstock_520946083.jpg?itok=AQu5HCLJ", 
+            "source": "https://www.almanac.com/recipe/carbonnade-de-boeuf-bourguignon",
+            "preptime": 70,
+            "servings": 4,
+            "instructions": "Preheat the oven to 325 degrees F.\r\n\r\nIn a large Dutch oven over medium-low heat, add the bacon and cook until it renders its fat and almost becomes crispy. Remove it with a slotted spoon to a plate. Add the onions, season with salt and pepper, to taste, and cook over low heat until they are deep in color and caramelized, about 30 minutes.\r\n\r\nRemove the onions to a plate, leaving as much fat in the pot as possible. Add the vegetable oil and mix it with the bacon fat. Raise the heat to high. Season the beef liberally with salt and pepper and sear, in batches, until nicely browned on both sides.\r\n\r\nOnce the meat is browned, add the first batch of meat back to the pan along with the onions, carrots and bacon. Sprinkle in the flour and stir. Cook for 1 minute before deglazing the pan with the beer. Add the remaining ingredients and bring the mixture to a simmer. Cover the pot and put it in the oven to braise until the beef is tender, about 2 hours. Remove the pot from the oven and transfer the pot roast to a serving dish.",
+            "ingredients": [
+                "1\/2 pound bacon, cut into large lardons\r",
+                "2 medium onions, sliced\r",
+                "Kosher salt and freshly ground black pepper\r",
+                "1 tablespoon vegetable oil\r",
+                "1 1\/2 pound beef chuck, cut into large cubes\r",
+                "5 carrots, peeled and cut into large chunks\r",
+                "1 tablespoon all-purpose flour\r",
+                "12 ounce beer (dark or light)\r",
+                "6 prunes\r",
+                "1 tablespoon dried thyme\r",
+                "1 cup beef stock"
+            ],
+            "tags": [
+                "beef",
+                "dinner"
+            ]
+        },
+        {
+            "id": "6",
+            "name": "Veggie soup",
+            "imageSource": "https://skinnyms.com/wp-content/uploads/2013/02/Chicken-Noodle-Soup.jpg",
+            "preptime": 45,
+            "servings": 6,
+            "instructions": "In a large soup pot, brown ground beef and onion, drain off fat.  Add remaining ingredients EXCEPT for last 3 items (canned vegetables).  Simmer on low heat until vegetables are tender, about an hour.  Add canned vegetables and simmer 5 minutes.  Remove bay leaf and serve.",
+            "ingredients": [
+                "1 pound ground beef\r",
+                "1 cup onion, chopped\r",
+                "1 cup potatoes, diced\r",
+                "1 cup carrots, sliced\r",
+                "1 cup celery, diced\r",
+                "2 16oz can diced tomatoes in juice (or substitute 2 small cans of tomato sauce)\r",
+                "4 cup water\r",
+                "1\/4 tsp dried basil, crushed\r",
+                "1\/4 tsp dried thyme\r",
+                "1 bay leaf\r",
+                "1\/2 tsp salt\r",
+                "1\/4 tsp pepper\r",
+                "1\/2 tsp garlic powder\r",
+                "2 tablespoon beef bouillon\r",
+                "1 16oz can corn\r",
+                "1 16oz can green beans\r",
+                "1 16oz can green peas"
+            ],
+            "tags": [
+                "soup",
+                "beef",
+                "lunch"
+            ]
+        },
+        {
+            "id": "7",
+            "name": "Greek salad",
+            "imageSource": "http://www.supperforasteal.com/wp-content/uploads/2013/03/Greek-Salad-Supper-for-a-Steal.jpg",
+            "preptime": 20,
+            "servings": 4,
+            "instructions": "In a small bowl, whisk together the lemon juice, garlic, salt, and oil. Set aside.   In a large bowl lightly toss the lettuce with the olives, cheese, cucumber, tomatoes, onion, oregano, and black pepper. Let sit up to 2 hours.  To serve, toss salad with dressing and place sliced chicken on top.",
+            "ingredients": [
+                "6 tablespoon lemon juice\r",
+                "2 clove garlic, minced\r",
+                "2 teaspoon kosher salt, plus more to taste\r",
+                "1 cup extra-virgin olive oil, preferably Greek\r",
+                "<hr>\r",
+                "1 head romaine lettuce, trimmed of tough stems and torn into bite-sized pieces\r",
+                "1 cup kalamata olives, about 6oz\/cup\r",
+                "1\/2 pound Feta cheese, crumbled\r",
+                "1 cucumber, trimmed, cut into 1 inch chunks\r",
+                "1 1\/2 cup grape tomatoes, halved\r",
+                "1 small red onion, cut into 1\/2-inch wedges, soaked in cold water for 5 minutes and drained\r",
+                "2 teaspoon dried oregano\r",
+                "Freshly ground black pepper"
+            ],
+            "tags": [
+                "greek",
+                "salad",
+                "lunch"
+            ]
+        },
+        {
+            "id": "8",
+            "name": "Green smoothie",
+            "imageSource": "https://www.cbc.ca/food/content/images/recipes/superfood-smoothie-fb.jpg",
+            "preptime": 10,
+            "servings": 2,
+            "instructions": "To prepare, just throw everything in a blender and give it a whirl!",
+            "ingredients": [
+                "1 apple\r",
+                "1 banana\r",
+                "3 leaves kale, stemmed\r",
+                "1\/2 cup spinach\r",
+                "1 scoop protein powder\r",
+                "1 tbsp hemp seeds\r",
+                "1 tsp maple syrup or agave\r",
+                "1 lime, juiced\r",
+                "2 cup water"
+            ],
+            "tags": [
+                "smoothie",
+                "breakfast"
+            ]
+        },
+        {
+            "id": "9",
+            "name": "Steakhouse steaks",
+            "imageSource": "https://images.food52.com/RJmn6Oe05fjRhcSDH6fYObWNPso=/753x502/94f3706a-18f5-4991-8d3a-93ea6b18abea--Perfect-Steakhouse-Steaks2.jpg",
+            "preptime": 60,
+            "servings": 2,
+            "instructions": "Preheat the oven to 400 degrees F.\r\n\r\nHeat a large, well-seasoned cast iron skillet over high heat until very hot, 5 to 7 minutes.\r\n\r\nMeanwhile, pat the steaks dry with a paper towel and brush them lightly with vegetable oil. Combine the fleur de sel and cracked pepper on a plate and roll the steaks in the mixture, pressing lightly to evenly coat all sides.\r\n\r\nWhen the skillet is ready, add the steaks and sear them evenly on all sides for about 2 minutes per side, for a total of 10 minutes.\r\n\r\nTop each steak with a tablespoon of butter, if using, and place the skillet in the oven. Cook the steaks until they reach 120 degrees F for rare or 125 degrees F for medium-rare on an instant-read thermometer. (To test the steaks, insert the thermometer sideways to be sure you're actually testing the middle of the steak.)\r\n\r\nRemove the steaks to a serving platter, cover tightly with aluminum foil and allow to rest at room temperature for 10 minutes. Serve hot with [Roquefort Cheese Sauce](http:\/\/www.xanthir.com\/recipes\/showrecipe.php?id=62) on the side.",
+            "ingredients": [
+                "1 tablespoon coarsely cracked black peppercorns\r",
+                "1 tablespoon fleur de sel\r",
+                "2 tablespoon vegetable oil\r",
+                "2 (10-ounce) filet mignon\r",
+                "2 tablespoon unsalted butter, at room temperature, optional\r",
+                "2 servings [Roquefort Cheese Sauce](http:\/\/www.xanthir.com\/recipes\/showrecipe.php?id=62)"
+            ],
+            "tags": [
+                "beef",
+                "dinner"
+            ]
+        },
+        {
+            "id": "10",
+            "name": "Blueberry smoothie",
+            "imageSource": "https://www.wildblueberries.com/wp-content/uploads/2016/08/557_KathyBtB.jpg",
+            "preptime": 10,
+            "servings": 2,
+            "instructions": "Combine all ingredients in blender. Blend until smooth.",
+            "ingredients": [
+                "1 cup blueberries\r",
+                "1 banana\r",
+                "1 scoop protein powder\r",
+                "1 tsp maple syrup\r",
+                "2 cup skim milk"
+            ],
+            "tags": [
+                "smoothie",
+                "breakfast"
+            ]
+        },
+        {
+            "id": "11",
+            "name": "Mediterranean scramble",
+            "imageSource": "https://tastykitchen.com/recipes/wp-content/uploads/sites/2/2016/02/Mediterranean-Scrambled-Eggs-with-Spinach-Tomato-and-Feta-by-aheadofthyme-410x273.jpg",
+            "preptime": 20,
+            "servings": 1,
+            "instructions": "Heat oil in a small non-stick skillet. Once hot, add veggies and saute until soft. Meanwhile, beat greek seasoning and feta into eggs. Once veggies are at desired doneness, add egg mixture to skillet and gently stir until cooked. Serve immediately.",
+            "ingredients": [
+                "1 tsp olive oil\r",
+                "1 cup chopped veggies, your choice\r",
+                "2 eggs, lightly beaten\r",
+                "1\/2 tsp greek seasoning\r",
+                "1\/4 cup feta cheese"
+            ],
+            "tags": [
+                "breakfast"
+            ]
+        },
+        {
+            "id": "12",
+            "name": "Mac and cheese",
+            "imageSource": "https://i.ytimg.com/vi/Sz4G5dij1Ow/maxresdefault.jpg",
+            "preptime": 55,
+            "servings": 6,
+            "instructions": "In a large pot of boiling, salted water cook the pasta to al dente and drain. Return to the pot and melt in the butter. Toss to coat.\r\n\r\nWhisk together the eggs, milk, hot sauce, salt, pepper, and mustard. Stir into the pasta and add the cheese. Over low heat continue to stir for 3 minutes or until creamy.\r\n\r\n(This recipe originally called for 6oz milk.  It is reduced as an experiment.)",
+            "ingredients": [
+                "Fresh black pepper\r",
+                "1 teaspoon kosher salt\r",
+                "1\/2 teaspoon hot sauce\r",
+                "4 ounce evaporated milk\r",
+                "2 eggs\r",
+                "4 tablespoon butter\r",
+                "1\/2 pound elbow macaroni\r",
+                "1\/4 teaspoon dry mustard\r",
+                "10 ounce sharp cheddar, shredded"
+            ],
+            "tags": [
+                "cheese",
+                "noodles",
+                "lunch",
+                "vegetarian"
+            ]
+        },
+        {
+            "id": "13",
+            "name": "Vegetarian chili",
+            "imageSource": "https://assets.marthastewart.com/styles/wmax-750/d32/quick-vegetarian-chili-103257088/quick-vegetarian-chili-103257088_horiz.jpg?itok=rqsoD0L6",
+            "preptime": 80,
+            "servings": 8,
+            "instructions": "In a large (6qt), heavy pot, heat the oil over medium-high heat. Add the onions, bell peppers, garlic, and serrano peppers, and cook, stirring, until soft, about 3 minutes. \r\n\r\nAdd the zucchini and mushrooms, and cook, stirring, until soft and the vegetables give off their liquid and start to brown around the edges, about 6 minutes. Add the chili powder, cumin, salt and cayenne, and cook, stirring, until fragrant, about 30 seconds. \r\n\r\nAdd the tomatoes and stir well. Add the beans, tomato sauce, and vegetable stock, stir well, and bring to a boil. Reduce the heat to medium-low and simmer, stirring occasionally, for about 20 minutes.\r\n\r\nRemove from the heat and stir in the cilantro and lime juice. Adjust the seasoning, to taste.\r\n\r\nTo serve, place 1\/4 cup of brown rice in the bottom of each bowl. Ladle the chili into the bowls over the rice. Top each serving with a dollop of sour cream and spoonful of avocado or [guacamole](http:\/\/www.xanthir.com\/recipes\/showrecipe.php?id=28). Sprinkle with [Essence](http:\/\/www.xanthir.com\/recipes\/showrecipe.php?id=id4) and green onions and serve.",
+            "ingredients": [
+                "2 tablespoon canola oil\r",
+                "1 1\/2 cup yellow onions, chopped\r",
+                "1 cup red bell peppers, chopped\r",
+                "2 tablespoon garlic, minced\r",
+                "2 serrano peppers, stemmed, seeded, and minced\r",
+                "1 medium zucchini, stem ends trimmed and cut into small dice\r",
+                "5 large portobello mushrooms, stemmed, wiped clean and cubed\r",
+                "2 tablespoon chili powder\r",
+                "1 tablespooon ground cumin\r",
+                "1 1\/4 teaspoon salt\r",
+                "1\/4 teaspoon cayenne\r",
+                "4 large tomatoes, peeled, seeded and chopped\r",
+                "2 can black beans, rinsed and drained\r",
+                "1 15oz can tomato sauce\r",
+                "1 cup vegetable stock, or water\r",
+                "1 lime, juiced\r",
+                "1\/4 cup cilantro, chopped\r",
+                "<hr>\r",
+                "Cooked brown rice, accompaniment\r",
+                "Sour cream or strained plain yogurt, garnish\r",
+                "Diced avocado or guacamole, garnish\r",
+                "Essence, garnish\r",
+                "Chopped green onions, garnish"
+            ],
+            "tags": [
+                "chili",
+                "vegetarian",
+                "lunch"
+            ]
+        },
+        {
+            "id": "14",
+            "name": "Garlic-lime fish tacos",
+            "imageSource": "https://i1.wp.com/www.thebetterfish.com/wp-content/uploads/2018/06/Chili-Lime-Fish-Tacos-How-to-Throw-An-Epic-Fish-Taco-Party.jpg?zoom=2.625&resize=374%2C249&ssl=1",
+            "preptime": 60,
+            "servings": 4,
+            "instructions": "Heat a grill or grill pan to medium-high. Clean and lightly oil hot grill. In a medium bowl, whisk together olive oil, garlic, and lime juice. Add fish and turn once to coat; let sit 5 minutes. Remove fish from marinade, letting excess drip off. Season with salt and pepper and grill until flesh is opaque throughout, 12 minutes, flipping once. With a fork, break fish into large pieces and serve with tortillas and [salsa fresca](http:\/\/www.xanthir.com\/recipes\/showrecipe.php?id=id10).",
+            "ingredients": [
+                "vegetable oil, for grill\r",
+                "1 tablespoon extra-virgin olive oil\r",
+                "2 clove garlic, finely chopped\r",
+                "1 tablespoon fresh lime juice\r",
+                "1 1\/4 pound skinless firm white-fleshed fish fillets, such as striped bass or cod (about 1 inch thick)\r",
+                "coarse salt and ground pepper\r",
+                "4 large flour tortillas, warmed or lightly toasted\r",
+                "1 serving [Salsa fresca](http:\/\/www.xanthir.com\/recipes\/showrecipe.php?id=id172)"
+            ],
+            "tags": [
+                "tacos",
+                "fish",
+                "mexican",
+                "dinner",
+                "lunch"
+            ]
+        },
+        {
+            "id": "15",
+            "name": "Potato hash with eggs",
+            "imageSource": "https://tastykitchen.com/recipes/wp-content/uploads/sites/2/2015/03/Mexican-Sweet-Potato-Hash-with-Black-Beans-and-Spinach-by-Phoebe-Lapine-410x273.jpg",
+            "preptime": 25,
+            "servings": 4,
+            "instructions": "In a large cast-iron or other heavy skillet, bring potatoes to a boil in salted water over high. Cook until potatoes are tender when pierced with a knife, about 6 minutes. Drain.\r\n\r\nIn skillet, melt 2 tablespoons butter over medium. Add onion and bell pepper and cook for 5 minutes. Add potatoes and red-pepper flakes; season with salt. Cook until potatoes are golden, 6-8 minutes. Add spinach and 1 tablespoon butter and cook, stirring, until butter is melted. Make four wells in potato mixture. Crack 2 eggs into each well and reduce heat to medium-low. Cover and cook until whites are set but yolks are still runny, about 6 minutes. Sprinkle with Parmesan and parsley and serve immediately.",
+            "ingredients": [
+                "3\/4 lb small white potatoes, cut into 1\/2-inch pieces\r",
+                "coarse salt\r",
+                "3 tbsp unsalted butter\r",
+                "1 medium yellow onion, diced small\r",
+                "1 red bell pepper, seeded and diced small\r",
+                "1\/2 tsp red-pepper flakes\r",
+                "10 oz frozen chopped spinach, thawed and excess liquid squeezed out\r",
+                "8 eggs\r",
+                "1 oz grated Parmesan, about 1\/4 cup\r",
+                "1 tbsp fresh parsley, chopped"
+            ],
+            "tags": [
+                "vegetarian",
+                "breakfast"
+            ]
+        },
+        {
+            "id": "16",
+            "name": "Veggie-egg scramble with feta",
+            "imageSource": "https://getinspiredeveryday.com/food/wp-content/uploads/sites/5/2013/03/Scrambled-Eggs-with-Spinach-Feta-and-Pine-Nuts-1.jpg",
+            "preptime": 30,
+            "servings": 2,
+            "instructions": "In a large nonstick skillet, heat oil over medium-high. Add onion, tomato, and zucchini and cook until vegetables are just tender, about 5 minutes.\r\n\r\nStir in spinach and cook until beginning to wilt, 1 minute. Season eggs with salt and pepper and add to skillet. Cook, stirring with a rubber spatula, until eggs are set, about 2 minutes. To serve, divide between two plates and sprinkle with feta.",
+            "ingredients": [
+                "2 teaspoon extra-virgin olive oil\r",
+                "1 small red onion, cut into 1\/2-inch wedges\r",
+                "1 plum tomato, seeded and diced medium\r",
+                "1\/2 small zucchini, diced medium\r",
+                "1 ounce baby spinach, about 1 cup\r",
+                "4 eggs, lightly beaten \r",
+                "Coarse salt and ground pepper\r",
+                "1 1\/2 ounce feta, crumbled (3 tablespoons)"
+            ],
+            "tags": [
+                "breakfast",
+                "vegetarian"
+            ]
+        }
+    ]
+}

@@ -50,10 +50,14 @@ export const Card = styled.div`
 `;
 
 export const RecipeImgSm = styled.img`
-    widht: 100%;
+    width: 100%;
+    max-width: 250px;
+    height: 100%;
     max-height: 170px;
     border-radius: 4px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
+    :hover {
+        box-shadow: 2px 3px 10px rgba(0, 0.1, 0.1, 0.50); 
+    }
 `;
 
 export const CardTitle = styled.h5`
@@ -68,6 +72,7 @@ export const Time = styled.span`
     font-size: 16px;
     color: ${colors.grey};
     margin-top: 8px;
+    margin-right: 16px;
 `;
 
 export const Servings = styled.span`
@@ -80,11 +85,59 @@ export const Category = styled.div`
     width: 15px;
     height: 15px;
     border-radius: 50%;
+   background-color: ${props => {props.category}};
+`;
+
+export const TagBreakfast = styled(Category)`
     background-color: ${colors.yellow};
+`;
+
+export const TagLunch = styled(Category)`
+    background-color: ${colors.blue};
+`;
+
+export const TagDinner = styled(Category)`
+    background-color: ${colors.orange};
 `;
 
 export const RowWrapper = styled.div`
     display: flex;
     align-items: baseline;
     justify-content: space-between;
+`;
+
+export const FilterWrapper = styled.div`
+    display: inline-flex;
+
+`;
+
+export const Button = styled.button`
+    font-size: 18px;
+    text-align: center;
+    border-radius: 4px;
+    border: none;
+    padding: 8px 16px;
+    margin: 20px 10px;
+`;
+
+export const DinnerButton = styled(Button)`
+    color: ${colors.orange};
+    background-color: ${colors.lightOrange};
+`;
+
+export const LunchButton = styled(Button)`
+    color: ${colors.blue};
+    background-color: ${colors.lightBlue};
+`;
+
+export const BreakfastButton = styled(Button)`
+    color: ${colors.yellow};
+    background-color: ${colors.lightYellow};
+`;
+
+export const RecipeListWRapper = styled.div`
+    display: grid;
+    max-width: 900px;
+    margin: 0 auto; 
+    grid-template-columns:  repeat(3, 300px [col-start]);
 `;

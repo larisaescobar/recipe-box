@@ -13,6 +13,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "isomorphic-unfetch": "^3.0.0",
     "next": "^7.0.3",
     "prismic-javascript": "^2.0.1",
     "prismic-reactjs": "^0.3.2",
