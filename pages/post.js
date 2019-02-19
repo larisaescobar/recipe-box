@@ -3,9 +3,18 @@ import {withRouter} from 'next/router'
 import Head from '../components/Head';
 import Navbar from '../components/Navbar';
 
+import recipes from '../recipe-db/db-recipes.json';
 import { GlobalStyle, RecipePageDiv, RecipeTitle } from '../styles/style';
 
-const Page = withRouter((props) =>  (
+const Content = withRouter((props) => (
+    <div>
+        <RecipePageDiv>
+            <RecipeTitle>{props.router.query.title}</RecipeTitle>
+        </RecipePageDiv>
+    </div>
+))
+
+const Page = (props) =>  (
     <div>
     <GlobalStyle />
         <Head
@@ -15,12 +24,9 @@ const Page = withRouter((props) =>  (
         <Navbar 
             NavbarTitle='Recipe box'
         />
-        <RecipePageDiv>
-            <RecipeTitle>{props.router.query.title}</RecipeTitle>
-        </RecipePageDiv>
-        
+        <Content />
     </div>
     
-))
+)
 
 export default Page;

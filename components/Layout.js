@@ -1,6 +1,4 @@
 import React, { Component } from 'react';
-import Head from './Head';
-import Navbar from './Navbar';
 import RecipeCard from './RecipeCard';
 
 import recipes from '../recipe-db/db-recipes.json';
@@ -32,14 +30,6 @@ class Layout extends Component {
         return (
             
             <div>
-                <Head
-                    title="Recipe Box | Larisa"
-                    description="Nextjs"
-                />
-                <Navbar 
-                    NavbarTitle='Recipe box'
-                />
-               
                 <RecipeListWRapper>
                     <FilterWrapper>
                         <Button
@@ -65,7 +55,8 @@ class Layout extends Component {
                         </DinnerButton>
                     </FilterWrapper>
                 {filteredRecipes.map(recipe => (
-                    <RecipeCard 
+                    <RecipeCard
+                        id={recipe.id} 
                          src={recipe.imageSource}
                          recipeTitle={recipe.name}
                          timing={recipe.preptime}

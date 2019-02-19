@@ -18,6 +18,11 @@ export const GlobalStyle = createGlobalStyle`
         font-family: 'Muli', sans-serif;
         margin: 0;
     }
+    h1, h2, h3, h4, h5, h6 {
+        font-family: 'Rokkitt' , serif;
+        font-weight: bold;
+        color: ${colors.charcoal};
+    }
 `;
 
 export const NavbarWrapper = styled.div`
@@ -63,7 +68,6 @@ export const SearchIcon = styled.i`
     margin-left: -32px;
 `;
 
-
 export const Card = styled.div`
     max-width: 300px;
     max-height: 244px;
@@ -84,9 +88,6 @@ export const RecipeImgSm = styled.img`
 
 export const CardTitle = styled.h5`
     font-size: 24px;
-    color: ${colors.charcoal};
-    font-family: 'Rokkitt' , serif;
-    font-weight: bold;
     margin: 8px 0 0 0;
 `;
 
@@ -180,3 +181,13 @@ export const RecipeListWRapper = styled.div`
         grid-column: 1 / -1;
       }
 `;
+
+export const RecipePageDiv = styled.div`
+      max-width: 930px;
+      margin: 0 auto;
+`;
+
+export const RecipeTitle = styled.h1`
+      font-size: 40px;
+`;
+

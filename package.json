@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "next",
+    "dev": "node server.js",
     "build": "next build",
     "export": "next export",
     "start": "next start"
@@ -13,6 +13,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "express": "^4.16.4",
     "isomorphic-unfetch": "^3.0.0",
     "next": "^7.0.3",
     "prismic-javascript": "^2.0.1",

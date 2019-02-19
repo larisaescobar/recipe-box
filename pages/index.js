@@ -2,10 +2,11 @@ import React from 'react';
 import Layout from '../components/Layout';
 import Head from '../components/Head';
 import Navbar from '../components/Navbar';
+import fetch from 'isomorphic-unfetch'
 
 import { GlobalStyle } from '../styles/style';
 
-const Index = () => (
+const Index = (props) => (
     <div>
     <GlobalStyle />
     <Head
@@ -18,5 +19,6 @@ const Index = () => (
        <Layout />
     </div>
 )
+
 
 export default Index;
