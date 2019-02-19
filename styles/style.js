@@ -140,6 +140,8 @@ export const Button = styled.button`
     font-family: 'Muli', sans-serif;
     font-weight: 700;
     text-transform: uppercase;
+    color: #21ad21;
+    background-color: #90ee907d;
     :hover {
         box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.21); 
     }

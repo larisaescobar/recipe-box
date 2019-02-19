@@ -4,7 +4,7 @@ import Navbar from './Navbar';
 import RecipeCard from './RecipeCard';
 
 import recipes from '../recipe-db/db-recipes.json';
-import { FilterWrapper, DinnerButton, LunchButton, BreakfastButton, RecipeListWRapper } from '../styles/style';
+import { FilterWrapper, Button, DinnerButton, LunchButton, BreakfastButton, RecipeListWRapper } from '../styles/style';
 class Layout extends Component {
     constructor(props){
         super(props);
@@ -42,6 +42,12 @@ class Layout extends Component {
                
                 <RecipeListWRapper>
                     <FilterWrapper>
+                        <Button
+                            onClick={this.handleClick}
+                            value='all'
+                        >
+                        All recipes
+                        </Button>
                         <BreakfastButton 
                             onClick={this.handleClick}
                             value='breakfast'
