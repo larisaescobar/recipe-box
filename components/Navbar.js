@@ -1,5 +1,5 @@
 import React from 'react';
-import { Title, NavbarWrapper, InputWrapper, SearchInput } from '../styles/style';
+import { Title, NavbarWrapper, InputWrapper, SearchInput, SearchIcon } from '../styles/style';
 
 const Navbar = props => (<div>
     <NavbarWrapper>
@@ -10,7 +10,15 @@ const Navbar = props => (<div>
             <SearchInput 
                 type='search'
                 placeholder='Search recipes' 
-            />  
+            /> 
+            <i className="fas fa-search"></i> 
+            <style jsx>{`
+                    i {
+                    color: #FF6007;
+                    margin-left: -32px;
+                    }
+                `}
+            </style>
         </InputWrapper>
   </NavbarWrapper>
 </div>)

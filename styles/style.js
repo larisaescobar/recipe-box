@@ -14,13 +14,15 @@ const colors = {
 export const GlobalStyle = createGlobalStyle`
     body {
         font-family: 'Muli', sans-serif;
+        margin: 0;
     }
 `;
 
 export const NavbarWrapper = styled.div`
-    display: flex;
-    padding: 32px 80px;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    align-items: center;
+    padding: 24px 40px;
     border-bottom: 1px solid #C4C4C4;
 `;
 
@@ -33,27 +35,45 @@ export const Title = styled.h1`
 
 export const InputWrapper = styled.div`
     width: 100%;
+    display: inline-flex;
+    align-items: center;
 `;
 
 export const SearchInput = styled.input`
     background-color: ${colors.lightOrange};
     color: ${colors.orange};
     border: none;
+    width: 100%;
+    height: 50px;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 16px;
+    font-family: 'Muli', sans-serif;
 
+    ::placeholder {
+        color: ${colors.orange};
+    }
 `;
 
+export const SearchIcon = styled.i`
+    color: ${colors.orange};
+    margin-left: -32px;
+`;
+
+
 export const Card = styled.div`
-    max-width: 256px;
+    max-width: 300px;
     max-height: 244px;
     width: 100%;
-    padding: 24px 32px;
+    padding: 10px 24px;
 `;
 
 export const RecipeImgSm = styled.img`
     width: 100%;
-    max-width: 250px;
+    max-width: 300px;
     height: 100%;
-    max-height: 170px;
+    max-height: 200px;
     border-radius: 4px;
     :hover {
         box-shadow: 2px 3px 10px rgba(0, 0.1, 0.1, 0.50); 
@@ -84,8 +104,6 @@ export const Servings = styled.span`
 export const Category = styled.div`
     width: 15px;
     height: 15px;
-    border-radius: 50%;
-   background-color: ${props => {props.category}};
 `;
 
 export const TagBreakfast = styled(Category)`
@@ -107,17 +125,24 @@ export const RowWrapper = styled.div`
 `;
 
 export const FilterWrapper = styled.div`
-    display: inline-flex;
-
+    display: inline;
+    grid-area: 1 / 1 / 1 / 4;
+    padding: 0 24px;
 `;
 
 export const Button = styled.button`
-    font-size: 18px;
+    font-size: 16px;
     text-align: center;
     border-radius: 4px;
     border: none;
     padding: 8px 16px;
-    margin: 20px 10px;
+    margin-right: 10px;
+    font-family: 'Muli', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    :hover {
+        box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.21); 
+    }
 `;
 
 export const DinnerButton = styled(Button)`
@@ -137,7 +162,12 @@ export const BreakfastButton = styled(Button)`
 
 export const RecipeListWRapper = styled.div`
     display: grid;
-    max-width: 900px;
-    margin: 0 auto; 
-    grid-template-columns:  repeat(3, 300px [col-start]);
+    max-width: 1000px;
+    margin: 32px auto 0;
+    justify-content: center;
+    grid-template-columns:  repeat(3, 1fr);
+    row-gap: 32px;
+    :first-child {
+        grid-column: 1 / -1;
+      }
 `;

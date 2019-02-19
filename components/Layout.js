@@ -10,12 +10,25 @@ class Layout extends Component {
         super(props);
         this.state = {
             recipes: recipes.recipes,
+            selectedCategory: 'all',
         };
+        this.handleClick = this.handleClick.bind(this);
     } 
+
+    handleClick = e => {
+        this.setState({ selectedCategory: e.target.value })
+    }
 
     render() {
         const { recipes } =  this.state;
-        console.log(this.state.recipes);
+        const { selectedCategory } = this.state;
+        const filteredRecipes = recipes.filter(recipe => {
+            if(selectedCategory === recipe.category) {
+                return recipe;
+            } else if (selectedCategory === 'all') {
+                return recipe;
+            }
+        })
         return (
             
             <div>
@@ -26,22 +39,36 @@ class Layout extends Component {
                 <Navbar 
                     NavbarTitle='Recipe box'
                 />
-                <FilterWrapper>
-                    <BreakfastButton>Breakfast</BreakfastButton>
-                    <LunchButton>Lunch</LunchButton>
-                    <DinnerButton>Dinner</DinnerButton>
-                </FilterWrapper>
+               
                 <RecipeListWRapper>
-                {recipes.map(recipe => (
+                    <FilterWrapper>
+                        <BreakfastButton 
+                            onClick={this.handleClick}
+                            value='breakfast'
+                            >Breakfast
+                        </BreakfastButton>
+                        <LunchButton
+                            onClick={this.handleClick} 
+                            value='lunch'
+                            >Lunch
+                        </LunchButton>
+                        <DinnerButton
+                            onClick={this.handleClick}
+                            value='dinner'
+                            >Dinner
+                        </DinnerButton>
+                    </FilterWrapper>
+                {filteredRecipes.map(recipe => (
                     <RecipeCard 
                          src={recipe.imageSource}
                          recipeTitle={recipe.name}
                          timing={recipe.preptime}
                          servings={recipe.servings}
-                         category={recipe.category}
-                         
+                         cat={recipe.category}
+                        
                      />
                 ))}
+                
                 </RecipeListWRapper>
             
             </div>

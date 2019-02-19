@@ -3,7 +3,7 @@
         {
             "id": "2",
             "name": "Tomato basil soup",
-            "imageSource": "https://images-gmi-pmc.edge-generalmills.com/9a9bf76d-189c-4429-b5c7-57325dac1b98.jpg",
+            "imageSource": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQch07wKp5cR6wqBV1zc0hBOoZuuTfr-neobM-K6PpV5orh1j02zg",
             "source": "http:\/\/cookeatshare.com\/recipes\/la-madeleine-s-tomato-basil-soup-318026",
             "preptime": 40,
             "servings": 4,
@@ -17,7 +17,7 @@
                 "Salt\r",
                 "1\/4 tsp black pepper"
             ],
-            "category": "#FF6007",
+            "category": "dinner",
             "tags": [
                 "dinner",
                 "main"
@@ -45,7 +45,7 @@
                     "3 1\/2 tbsp whipped-style cream cheese, at room temperature\r",
                     "2 servings [cocktail sauce](http:\/\/www.xanthir.com\/recipes\/showrecipe.php?id=id50)"
                 ],
-                "category": "#FF6007",
+                "category": "lunch",
                 "tags": [
                     "salmon",
                     "ebelskivers",
@@ -73,6 +73,7 @@
                 "2 tablespoon finely grated Parmesan, plus extra for garnish\r",
                 "Salt and freshly ground black pepper"
             ],
+            "category": "lunch",
             "tags": [
                 "german",
                 "lunch"
@@ -99,6 +100,7 @@
                 "1 tablespoon dried thyme\r",
                 "1 cup beef stock"
             ],
+            "category": "dinner",
             "tags": [
                 "beef",
                 "dinner"
@@ -130,6 +132,7 @@
                 "1 16oz can green beans\r",
                 "1 16oz can green peas"
             ],
+            "category": "lunch",
             "tags": [
                 "soup",
                 "beef",
@@ -158,6 +161,7 @@
                 "2 teaspoon dried oregano\r",
                 "Freshly ground black pepper"
             ],
+            "category": "lunch",
             "tags": [
                 "greek",
                 "salad",
@@ -182,6 +186,7 @@
                 "1 lime, juiced\r",
                 "2 cup water"
             ],
+            "category": "breakfast",
             "tags": [
                 "smoothie",
                 "breakfast"
@@ -202,6 +207,7 @@
                 "2 tablespoon unsalted butter, at room temperature, optional\r",
                 "2 servings [Roquefort Cheese Sauce](http:\/\/www.xanthir.com\/recipes\/showrecipe.php?id=62)"
             ],
+            "category": "dinner",
             "tags": [
                 "beef",
                 "dinner"
@@ -221,6 +227,7 @@
                 "1 tsp maple syrup\r",
                 "2 cup skim milk"
             ],
+            "category": "breakfast",
             "tags": [
                 "smoothie",
                 "breakfast"
@@ -240,6 +247,7 @@
                 "1\/2 tsp greek seasoning\r",
                 "1\/4 cup feta cheese"
             ],
+            "category": "breakfast",
             "tags": [
                 "breakfast"
             ]
@@ -247,7 +255,7 @@
         {
             "id": "12",
             "name": "Mac and cheese",
-            "imageSource": "https://i.ytimg.com/vi/Sz4G5dij1Ow/maxresdefault.jpg",
+            "imageSource": "http://relish.com/wp-content/uploads/2017/03/Mac-N-Cheese-with-Honey-Bacon-670x405-1489186002.jpg",
             "preptime": 55,
             "servings": 6,
             "instructions": "In a large pot of boiling, salted water cook the pasta to al dente and drain. Return to the pot and melt in the butter. Toss to coat.\r\n\r\nWhisk together the eggs, milk, hot sauce, salt, pepper, and mustard. Stir into the pasta and add the cheese. Over low heat continue to stir for 3 minutes or until creamy.\r\n\r\n(This recipe originally called for 6oz milk.  It is reduced as an experiment.)",
@@ -262,6 +270,7 @@
                 "1\/4 teaspoon dry mustard\r",
                 "10 ounce sharp cheddar, shredded"
             ],
+            "category": "dinner",
             "tags": [
                 "cheese",
                 "noodles",
@@ -301,6 +310,7 @@
                 "Essence, garnish\r",
                 "Chopped green onions, garnish"
             ],
+            "category": "dinner",
             "tags": [
                 "chili",
                 "vegetarian",
@@ -324,6 +334,7 @@
                 "4 large flour tortillas, warmed or lightly toasted\r",
                 "1 serving [Salsa fresca](http:\/\/www.xanthir.com\/recipes\/showrecipe.php?id=id172)"
             ],
+            "category": "dinner",
             "tags": [
                 "tacos",
                 "fish",
@@ -351,6 +362,7 @@
                 "1 oz grated Parmesan, about 1\/4 cup\r",
                 "1 tbsp fresh parsley, chopped"
             ],
+            "category": "breakfast",
             "tags": [
                 "vegetarian",
                 "breakfast"
@@ -373,6 +385,7 @@
                 "Coarse salt and ground pepper\r",
                 "1 1\/2 ounce feta, crumbled (3 tablespoons)"
             ],
+            "category": "breakfast",
             "tags": [
                 "breakfast",
                 "vegetarian"
