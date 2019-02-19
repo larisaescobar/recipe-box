@@ -70,7 +70,7 @@ class Layout extends Component {
                          recipeTitle={recipe.name}
                          timing={recipe.preptime}
                          servings={recipe.servings}
-                         cat={recipe.category}
+                         category={recipe.category}
                         
                      />
                 ))}

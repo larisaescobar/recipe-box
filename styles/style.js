@@ -6,7 +6,9 @@ const colors = {
     blue: '#32A5F8',
     lightBlue: '#BFE2FB',
     yellow: '#F8B732',
-    lightYellow: '#FAE9C7',
+    lightYellow: '#fae9c7c4',
+    green: '#21ad21',
+    lightGreen: '#90ee907d',
     charcoal: '#100F0F',
     grey: '#6D6A6A',
 }
@@ -102,8 +104,13 @@ export const Servings = styled.span`
 `;
 
 export const Category = styled.div`
+    --breakfast-bg: ${colors.yellow}; 
+    --lunch-bg: ${colors.blue};
+    --dinner-bg: ${colors.orange};
+    border-radius: 50%;
     width: 15px;
     height: 15px;
+    background-color:  ${props => `var(--${props.category}-bg)`};
 `;
 
 export const TagBreakfast = styled(Category)`
@@ -140,8 +147,8 @@ export const Button = styled.button`
     font-family: 'Muli', sans-serif;
     font-weight: 700;
     text-transform: uppercase;
-    color: #21ad21;
-    background-color: #90ee907d;
+    color: ${colors.green};
+    background-color: ${colors.lightGreen};
     :hover {
         box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.21); 
     }

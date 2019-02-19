@@ -6,7 +6,7 @@ const RecipeCard = props => (
         <RecipeImgSm src={props.src} alt='Some alt' />
         <RowWrapper>
             <CardTitle>{props.recipeTitle}</CardTitle>
-            <Category  category/>
+            <Category  category={props.category}/>
         </RowWrapper>
         <Time><i class="far fa-clock"></i> {props.timing} min</Time>
         <Servings><i class="far fa-user"></i> {props.servings}</Servings>
