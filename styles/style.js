@@ -81,6 +81,7 @@ export const RecipeImgSm = styled.img`
     height: 100%;
     max-height: 200px;
     border-radius: 4px;
+    cursor: pointer;
     :hover {
         box-shadow: 2px 3px 10px rgba(0, 0.1, 0.1, 0.50); 
     }
@@ -89,6 +90,7 @@ export const RecipeImgSm = styled.img`
 export const CardTitle = styled.h5`
     font-size: 24px;
     margin: 8px 0 0 0;
+    cursor: pointer;
 `;
 
 export const Time = styled.span`
@@ -190,4 +192,3 @@ export const RecipePageDiv = styled.div`
 export const RecipeTitle = styled.h1`
       font-size: 40px;
 `;
-

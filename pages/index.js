@@ -16,9 +16,10 @@ const Index = (props) => (
     <Navbar 
         NavbarTitle='Recipe box'
     />
+   
        <Layout />
     </div>
 )
 
-
 export default Index;
+
